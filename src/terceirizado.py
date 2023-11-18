@@ -1,4 +1,4 @@
-from src.aluno.base.funcionario import Funcionario
+from funcionario import Funcionario
 
 class Terceirizado(Funcionario):
 

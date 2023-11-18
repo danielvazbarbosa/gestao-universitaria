@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from src.aluno.base.funcionario import Funcionario
-from src.cliente.tipo import Tipo
+from funcionario import Funcionario
+from tipo import Tipo
 
 class IRHService(ABC):
     """ Vamos modelar o controle de pagamento de uma empresa privada de ensino.
